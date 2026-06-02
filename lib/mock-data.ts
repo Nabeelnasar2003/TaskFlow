@@ -1,0 +1,68 @@
+import { Task } from "@/types";
+
+export const MOCK_TASKS: Task[] = [
+  {
+    id: "task_001",
+    title: "Design system setup",
+    description: "Configure Tailwind, shadcn/ui, and establish the design token system for the project.",
+    status: "completed",
+    dueDate: "2025-06-01",
+    createdAt: "2025-05-20T09:00:00Z",
+  },
+  {
+    id: "task_002",
+    title: "Build authentication flow",
+    description: "Implement login, logout, and session persistence using localStorage. Protect dashboard routes.",
+    status: "completed",
+    dueDate: "2025-06-05",
+    createdAt: "2025-05-21T10:30:00Z",
+  },
+  {
+    id: "task_003",
+    title: "Dashboard layout & navigation",
+    description: "Create the main dashboard shell with sidebar navigation, header, and responsive layout.",
+    status: "in-progress",
+    dueDate: "2025-06-10",
+    createdAt: "2025-05-22T11:00:00Z",
+  },
+  {
+    id: "task_004",
+    title: "Task CRUD operations",
+    description: "Build create, read, update, and delete functionality for tasks with form validation.",
+    status: "in-progress",
+    dueDate: "2025-06-12",
+    createdAt: "2025-05-23T08:45:00Z",
+  },
+  {
+    id: "task_005",
+    title: "Filtering and search",
+    description: "Add status filters, due date sorting, and full-text search across task titles.",
+    status: "todo",
+    dueDate: "2025-06-15",
+    createdAt: "2025-05-24T09:15:00Z",
+  },
+  {
+    id: "task_006",
+    title: "Responsive mobile UI",
+    description: "Ensure all views work on mobile devices. Test breakpoints and fix layout issues.",
+    status: "todo",
+    dueDate: "2025-06-18",
+    createdAt: "2025-05-25T14:00:00Z",
+  },
+  {
+    id: "task_007",
+    title: "Unit tests",
+    description: "Write tests for utility functions and critical components using Jest and Testing Library.",
+    status: "todo",
+    dueDate: "2025-06-20",
+    createdAt: "2025-05-26T10:00:00Z",
+  },
+  {
+    id: "task_008",
+    title: "Dark mode implementation",
+    description: "Add theme toggle with system preference detection and localStorage persistence.",
+    status: "todo",
+    dueDate: "2025-06-22",
+    createdAt: "2025-05-27T11:30:00Z",
+  },
+];
